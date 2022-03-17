@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StyleDirective } from './directives/style.directive';
+import { IfnotDirective } from './directives/ifnot.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StyleDirective
+    StyleDirective,
+    IfnotDirective
   ],
   imports: [
     BrowserModule,
